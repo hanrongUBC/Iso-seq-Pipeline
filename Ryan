@@ -1,0 +1,5 @@
+
+
+# 计算 read support 生成 trans_read.fofn
+# 生成CK
+awk '{print $1"\t"$1"_trans_read.bed\ttrans_read"}' <(echo -e "CK_1\nCK_2\nCK_3") > CK_trans_read.fofn
