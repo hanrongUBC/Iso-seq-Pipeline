@@ -1,0 +1,4 @@
+#Tama Collapse
+#Collapse之后会生成每个样本的
+#SQANTI3
+python sqanti3_qc.py   --isoforms /home/hanrong/scratch/Ryan/collapse_isoform/Dar_2014/merged_all.gtf   --refGTF /home/hanrong/scratch/Ryan/ref/Dar_2014/Brassica_napus.Darmor.v4.1.gene_fixed.9col.gtf   --refFasta /home/hanrong/scratch/Ryan/ref/Dar_2014/Brassica_napus.Darmor.v4.1.genome.fa   --output merged_all_Dar2014_sq3   --dir /home/hanrong/scratch/Ryan/SQANTI/Dar_2014 --skipORF
